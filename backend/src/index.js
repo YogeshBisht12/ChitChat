@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chit-chat-qn23.vercel.app/api",
+    origin: "https://chit-chat-qn23.vercel.app",
     credentials: true,
   })
 );
